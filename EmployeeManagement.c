@@ -2,8 +2,7 @@
 #include <string.h>
 
 #define max_Employees 50
-//shows the maximum number of 
-employees that can be stored in the system
+//shows the maximum number of employees that can be stored in the system
 
 char  EmployeeName[max_Employees][50];
 char  EmployeeID[max_Employees][10];
@@ -75,7 +74,8 @@ void printEmployee(int i) {
     printf("Phone Number: %s\n", PhoneNumber[i]);
     printf("Employee Email: %s\n", EmployeeEmail[i]);
 }
-// This function prints the details of an employee at index i in the arrays. It displays the employee's name, ID, department, salary components, phone number, and email.
+// This function prints the details of an employee at index i in the arrays. 
+//It displays the employee's name, ID, department, salary components, phone number, and email.
 
 void AddEmployee(void) {
     if (NumberOfEmployees >= max_Employees) {
@@ -117,10 +117,15 @@ void AddEmployee(void) {
 
     NumberOfEmployees++;
     printf("Employee added successfully.\n");
-// we use fgets() and strlen() to read the employee name and ensure it is not empty. The other details are read using scanf() with appropriate format specifiers. After successfully adding the employee, we increment the NumberOfEmployees counter.
+// we use fgets() and strlen() to read the employee name and ensure it is not empty. 
+//The other details are read using scanf() with appropriate format specifiers. 
+//After successfully adding the employee, we increment the NumberOfEmployees counter.
 }
 
-// This function adds a new employee to the system. It prompts the user for various details, including name, ID, department, salary components, phone number, and email. It ensures that the name is not empty and that the salary components are non-negative. After successfully adding the employee, it increments the NumberOfEmployees counter.
+// This function adds a new employee to the system. 
+//It prompts the user for various details, including name, ID, department, salary components, phone number, and email. 
+//It ensures that the name is not empty and that the salary components are non-negative. 
+//After successfully adding the employee, it increments the NumberOfEmployees counter.
 
 void displayEmployeeDetails(void) {
     if (NumberOfEmployees == 0) {
@@ -135,7 +140,9 @@ void displayEmployeeDetails(void) {
         printf("===============================================\n");
     }
 }
-// This function displays the details of all registered employees. If there are no employees, it informs the user. Otherwise, it iterates through the employee arrays and prints each employee's details using the printEmployee function.
+// This function displays the details of all registered employees. 
+//If there are no employees, it informs the user. 
+//Otherwise, it iterates through the employee arrays and prints each employee's details using the printEmployee function.
 
 void SearchEmployee(void) {
     char searchID[10];
@@ -158,7 +165,9 @@ void SearchEmployee(void) {
         printf("Employee with ID %s not found.\n", searchID);
     }
 }
-// This function searches for an employee by their ID. It prompts the user to enter an ID and then iterates through the EmployeeID array to find a match. If found, it prints the employee's details; otherwise, it informs the user that the employee was not found.
+// This function searches for an employee by their ID. 
+//It prompts the user to enter an ID and then iterates through the EmployeeID array to find a match. 
+//If found, it prints the employee's details; otherwise, it informs the user that the employee was not found.
 
 void CalculateBasicSalary(void) {
     char searchID[10];
@@ -184,11 +193,14 @@ void CalculateBasicSalary(void) {
     }
 }
 
-// This function calculates the gross salary of an employee based on their ID. It prompts the user for an ID, searches for the employee, and if found, calculates the total salary using the calculateSalary function. It then displays the gross salary; if the employee is not found, it informs the user.
+// This function calculates the gross salary of an employee based on their ID. 
+//It prompts the user for an ID, searches for the employee, and if found, calculates the total salary using the calculateSalary function. 
+//It then displays the gross salary; if the employee is not found, it informs the user.
 
 
 int main(void) {
-// The main function serves as the entry point of the program. It displays a menu to the user and processes their choices in a loop until they choose to exit.
+// The main function serves as the entry point of the program. 
+//It displays a menu to the user and processes their choices in a loop until they choose to exit.
     
     int choice;
 
