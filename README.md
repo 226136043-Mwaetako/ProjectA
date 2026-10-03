@@ -2,8 +2,8 @@ Municipal Financial Management System
 
 GROUP MEMBERS
 Student 1 EMPLOYEE MANAGEMENT- Lazarus Jessica (226029905)
-Student 2 BUDGET MANAGEMENT- 
-Student 3 SUPPLIER MANAGEMENT-
+Student 2 BUDGET MANAGEMENT- Gideon Vistolina (226082377)
+Student 3 SUPPLIER MANAGEMENT- Delcy Guriras (226041611)
 Student 4 ASSET MANAGEMENT-
 Student 5 REPORTS-Uusiku (Bonifatius 225034581)
 Student 6 FUNCTIONS, INTEGRATION AND VALIDATION-Twalukeni Hilaria (226068420)
