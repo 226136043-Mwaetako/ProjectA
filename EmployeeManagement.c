@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "EmployeeManagement.h"
 
 #define max_Employees 50
 //shows the maximum number of employees that can be stored in the system
