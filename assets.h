@@ -12,6 +12,9 @@ typedef struct {
     char condition[30];
 } Asset;
 
+extern Asset assets[MAX_ASSETS];
+extern int assetCount;
+
 void assetMenu(void);
 void addAsset(void);
 void displayAssets(void);
