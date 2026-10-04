@@ -6,7 +6,7 @@
 
 void addDepartment(void);
 void enterExpenditure(void);
-float remaining (int i);
+float remaining(int i);
 int isWithinBudget(int i);
 void displayBudgets(void);
 void listOverBudget(void);
