@@ -14,11 +14,11 @@ Student 6 FUNCTIONS, INTEGRATION AND VALIDATION-Twalukeni Hilaria (226068420),
 Student 7 TESTING, DOCUMENTATION AND GIT COORDINATION- Meilikano Mwaetako (226136043)    
 
 ABOUT THE PROJECT:
-The Municipal Financial Management System is a C-based system produced to manage municipal financial information. The system shows modules for managing the roles provided above.
+The Municipal Financial Management System is a C-based system produced to manage municipal 
+financial information. The system shows modules for managing the roles provided above.
 
 SYSTEM FEATURES
 The system includes the following modules:
-
 -Employee Management
 -Budget Management 
 -Supplier Management
