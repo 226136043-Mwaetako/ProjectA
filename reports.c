@@ -12,7 +12,7 @@ extern float HousingAllowance[];
 extern float TransportAllowance[];
 extern int   NumberOfEmployees;
 
-/* Budget (names assumed - change them to match the Budget module) */
+/* Budget (names are assumed - for now) */
 #if HAS_BUDGET_MODULE
 extern char  deptNames[][50];
 extern float allocated[];
@@ -20,7 +20,7 @@ extern float expenditure[];
 extern int   deptCount;
 #endif
 
-/* Suppliers (names assumed - change them to match the Supplier module) */
+/* Suppliers (names assumed) */
 #if HAS_SUPPLIER_MODULE
 extern char supIDs[][10];
 extern char supNames[][100];
