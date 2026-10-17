@@ -10,12 +10,12 @@
 #define TOWN_LEN 30
 
 
-static int supID[MAX_SUP];
-static char supName[MAX_SUP][NAME_LEN];
-static char supEmail[MAX_SUP][EMAIL_LEN];
-static char supPhone[MAX_SUP][PHONE_LEN];
-static char supTown[MAX_SUP][TOWN_LEN];
-static int supCount = 0;
+int  supID[MAX_SUP];
+char supName[MAX_SUP][SUP_NAME_LEN];
+char supEmail[MAX_SUP][EMAIL_LEN];
+char supPhone[MAX_SUP][PHONE_LEN];
+char supTown[MAX_SUP][TOWN_LEN];
+int  supCount = 0;
 
 
 static void readLine(char text[], int size);
