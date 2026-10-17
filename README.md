@@ -27,8 +27,16 @@ The system includes the following modules:
 -Input Validation
 -System Integration
 
-HOW TO RUN
-1. Clone the repository
-2. Open the project in Visual Studio Code
-3. Complie the C source files
-4. Run the program
+## How to run
+
+1. Clone the repo and switch to the main branch:
+   git clone https://github.com/226136043-Mwaetako/ProjectA.git
+   cd ProjectA
+   git checkout main
+
+2. Compile (needs gcc, C99):
+   gcc -std=c99 -Wall -Wextra main.c EmployeeManagement.c budget.c supplier.c assets.c reports.c Validation.c -o mfms
+
+3. Run:
+   Windows:   .\mfms
+   Linux/Mac: ./mfms
